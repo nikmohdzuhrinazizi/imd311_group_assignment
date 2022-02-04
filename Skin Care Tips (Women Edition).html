@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<title>Skin Care Tips</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-pale-red w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>SKINCARE ROUTINE</b></h1>
+    <h6>Welcome to the blog of <span class="w3-tag">Skin Care Tips (Women Edition)</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img src="images/background1.jpg" alt="Skincare Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">She's</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>IN THE GLOW BLOG</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Face Cleanser</h3>
+          <h5><q>We all want that natural healthy GLOW!</q></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="images/pinkcloudcleanser.gif" alt="Face Wash" style="width:100%" class="w3-padding-16">
+          <p><strong>What Are Cleansers?</strong></p>
+          <p>A facial cleanser is a skincare product used to remove make-up, dead skin cells, oil, dirt, and other sorts of pollutants from the skin, helping to keep pores clear and avoid skin problems such as acne. Finding the perfect cleanser might be challenging given the abundance of alternatives. Understanding the distinctions between them can assist you in selecting the best products for your skin.</p>
+          <p><strong>✩ Gel Cleanser </strong>are transparent and have a gel-like texture. Numerous products have deep-cleansing and exfoliating agents that are good for oily, acne-prone skin.</p>
+          <p><strong>✩ Cream cleansers </strong>are typically thicker and more hydrating, effectively washing the skin without removing it of its natural oils—perfect for dry or sensitive skin.</p>
+          <p><strong>✩ Foam Cleanser </strong>when delivered from a pump container, foam cleansers are lightweight solutions that create a foamy lather. Foam cleansers are more pleasant to use than gel cleansers and remove excess oil just as effectively—making them great for combination skin.</p>
+          <i>Remember, cleansing your skin is important not just at night, but also in the morning, to remove any toxins your skin eliminates during the night.</i><br>
+          <p class="w3-left"><button class="w3-button w3-pale-red w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-pale-red" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-light-grey">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="images/rose.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Rose <span class="w3-opacity w3-medium">January 1, 2022, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>MOISTURIZER</h3>
+          <h5><q>I'm a better person when I'm moisturised</q></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="images/moisturizer.jpg" alt="Glow skin" style="width:100%" class="w3-padding-16">
+          <p><strong>What Is Moisturiser?</strong></p>
+          <p>On top of everything else that needs to be accomplished in the morning, moisturising your skin can feel like an additional chore - so why do it? As it turns out, moisturising your skin does more than make it feel good; it also helps keep it clear, smooth, and wrinkle-free in the future. If you're still not convinced, consider the top 3 reasons you absolutely must moisturise your skin.</p>
+          <p><strong>✩ Moisturising reduces the chances of skin problems. </strong>Using the appropriate moisturiser for your skin type might assist in maintaining its equilibrium. When the skin is either excessively dry or too oily, numerous common skin issues such as acne begin to manifest. According to dermatologist Dr. Ted Lain, if your skin is prone to oiliness, you should opt for lotions rather than creams and look for a moisturiser that contains an exfoliator. If your skin is prone to dryness, seek for a cream with a greater oil content.</p>
+          <p><strong>✩ Moisturising helps your skin stay young. </strong>Your skin's most sensitive places - the face, ears, neck, and chest - replace themselves more frequently than any other area. This continuous loss of skin cells exposes these places to the elements and makes them more susceptible to skin cancer. Moisturizing can assist your sensitive skin in repairing itself and remaining healthy.</p>
+          <p><strong>✩ Moisturising reduces the appearance of the other blemishes. </strong>Skin that has been freshly moisturised has a healthy sheen, which can help conceal any existing imperfections. Certain moisturisers contain a tint or self-tanner that can be used on any skin tone.</p>
+          <i>Ascertain that the moisturiser you choose is suitable for your skin type.</i><br>
+          <p class="w3-left"><button class="w3-button w3-pale-red w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-pale-red" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-light-grey">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="images/jennie1.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jennie <span class="w3-opacity w3-medium">January 2, 2022, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best!</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="images/jisoodior.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jisoo <span class="w3-opacity w3-medium">January 3, 2022, 9:12 PM</span></h4>
+                <p>Love the tips!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>FACE SERUM</h3>
+          <h5><q>Life is short, buy the SERUM</q></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="images/fentyserum.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>What Is Face Serum?</strong></p>
+          <p>Serums are topical preparations with a thin viscosity that contain high concentrations of active substances. The idea behind serums is that they allow for greater amounts of active molecules to permeate the skin's surface for maximum efficiency. Additionally, because the concentration is higher, it often takes less time to observe visible results.</p>
+          <p><strong>✩ Hydrates – </strong>Hydration is an essential component in maintaining attractive skin. Vitamin E, vitamin C, and hyaluronic acid can all help maintain skin's youthful appearance and health.</p>
+          <p><strong>✩ Reduce the appearance of dark spots – </strong>Dark spots are a source of irritation, but certain chemicals can help reduce their appearance and level out your complexion. Make a point of consuming vitamin E, vitamin C, and retinol.</p>
+          <p><strong>✩ Smooth skin and refine textures – </strong>Our skin's texture is what gives it its unique lustre, and substances such as hyaluronic acid, vitamin C, and peptides can all assist to smooth and refine.</p>
+          <i>Remember this : Avoid vigorous rubbing of the skin; instead, let the serum to absorb naturally.</i><br>
+          <p class="w3-left"><button class="w3-button w3-pale-red w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-pale-red" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-light-grey">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="images/lisa.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Lisa <span class="w3-opacity w3-medium">January 8, 2022, 7:22 PM</span></h4>
+                <p>That was a great serum tips! Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="images/Ruby.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Ruby <span class="w3-opacity w3-medium">January 10, 2022, 10:32 PM</span></h4>
+                <p>Keep up the GREAT work! I am cheering for you!!</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="images/Jen.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jen <span class="w3-opacity w3-medium">January 11, 2022, 9:12 PM</span></h4>
+                <p>Cant wait for another tips from you!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="images/hairproducts.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container w3-pale-red">
+          <h4>How To Maintain Healthy Hair Tips</h4>
+          <p>A daily hair care routine is just as important as a daily skincare routine for maintaining healthy hair. Jeannatte Walls once said, <q>A lady's hair is her crowning glory.</q></p>
+          <p><strong>✓ Shampoo - </strong>A pre-shampooing practise is essential for keeping your hair's sheen and moisture. Washing your hair on a regular basis does rely on your hair type. Never wash your hair with hot water since this can strip your hair of its natural oils, leaving it dry and lifeless.</p>
+          <p><strong>✓ Conditioner - </strong>A conditioner can help to hydrate your hair while also adding shine. Following a shampoo, add conditioner to the length of your hair and rinse after a few minutes. You should not apply conditioner to your scalp or hair roots.</p>
+          <p><strong>✓ Hair Serum - </strong>Hair serum improves the shine and condition of your hair while also reducing knots. Additionally, hair serum guards against the damaging effects of the sun, pollution, other harsh chemicals, and heat styling tools.</p>
+          <p><strong>✓ Hair Tonic - </strong>Utilizing a hair tonic may be an excellent way to safeguard your scalp. If you suffer from scalp surface damage on a regular basis, such as dry skin or hair breakage, applying a hair tonic may be one of the most effective strategies to restore your overall skin health. Apply a small quantity daily, and while you're at it, treat yourself to a nice massage.</p>
+        <i>Invest in your hair, it is the crown you never take off!</i>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-pale-red">
+          <h4>Recommendations</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="images/cetaphil.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Daily Facial Cleanser (Cetaphil)</span>
+            <br>
+            <span>Thoroughly cleanses skin and non-drying formula</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="images/clinique.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Repair Serum (Clinique)</span>
+            <br>
+            <span>Minimizes dark spots and pores and brightens skin tone.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="images/clinique2.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Moisturizing Lotion (Clinique)</span>
+            <br>
+            <span>Powerful hydrating effects anf lightweight texture.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="images/sunbum.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Sunscreen Spray (Sun Bum)</span>
+            <br>
+            <span>SPF 50 and Water resistance: 80 minutes</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-pale-red">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-brown w3-margin-bottom">Skincare</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Beauty</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Skincareroutine</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">makeup</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Skin</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Skinproducts</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Skincaretips</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">GlowingSkin</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Selfcare</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Anti-aging</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Health</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Selflove</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Exfoliate</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Facecare</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-pale-red">
+          <h4>Follow Us</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-pale-red">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-pale-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-pale-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-pale-red w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
